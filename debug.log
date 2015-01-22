@@ -1,0 +1,1375 @@
+- 18:20:48.031 INFO: --------------------------------------------------------
+- 18:20:48.031 INFO: Started application
+- 18:20:48.031 INFO: Logging to: C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\debug.log
+- 18:20:48.031 INFO: Log level = DEBUG4
+- 18:20:48.031 INFO: Starting Mongoose 3.9c web server
+- 18:20:48.031 INFO: WWW directory: C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\www
+- 18:20:48.031 INFO: Index files: index.html,index.php
+- 18:20:48.031 INFO: CGI interpreter: C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\php\php-cgi.exe
+- 18:20:48.031 INFO: CGI pattern: **.php$
+- 18:20:48.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DDOMBR~1\AppData\Local\Temp\
+- 18:20:48.047 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 18:20:48.062 INFO: Web server url: http://127.0.0.1:52561/
+- 18:20:48.062 INFO: remote_debugging_port = 50177
+- 18:20:48.062 DEBUG: Command line string for the browser process: "C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\debug.log" --remote-debugging-port=50177 --no-sandbox
+- 18:20:48.109 DEBUG: App::OnContextInitialized()
+- 18:20:48.109 DEBUG: Window max width/height = 1840/992
+- 18:20:48.109 DEBUG: GetBrowserWindow(): not found, hwnd = 724502
+- 18:20:48.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:20:48.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:20:48.109 DEBUG: StoreBrowserWindow(): hwnd = 724502
+- 18:20:48.125 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 18:20:48.140 DEBUG: ClientHandler::OnAfterCreated()
+- 18:20:48.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:20:48.140 INFO: DPI, ppix = 96, ppiy = 96
+- 18:20:48.140 INFO: DPI, browser zoom level = 0
+- 18:20:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\phpdesktop-chrome.exe" --type=gpu-process --channel="11888.0.1248482633\1702425850" --no-sandbox --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22,26 --gpu-vendor-id=0x10de --gpu-device-id=0x104a --gpu-driver-vendor=NVIDIA --gpu-driver-version=9.18.13.4052 --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\debug.log" /prefetch:822062411
+- 18:20:48.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:20:48.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\phpdesktop-chrome-31.8-php-5.6.1\debug.log" --channel="11888.1.645945047\1922218394" /prefetch:673131151
+- 18:20:48.031 DEBUG: OnBrowserCreated()
+- 18:20:49.406 INFO: GET 200 /
+- 18:20:49.250 DEBUG: OnContextCreated()
+- 18:20:49.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/
+- 18:20:54.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/
+- 18:20:54.531 DEBUG: OnContextCreated()
+- 18:20:54.703 INFO: GET 200 /chrome-version.php
+- 18:20:54.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/chrome-version.php
+- 18:20:56.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/chrome-version.php
+- 18:20:56.500 DEBUG: OnContextCreated()
+- 18:20:56.672 INFO: GET 200 /index.php
+- 18:20:56.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:20:58.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:20:59.812 DEBUG: OnContextCreated()
+- 18:20:59.984 INFO: GET 200 /iframe.php
+- 18:20:59.859 DEBUG: OnContextCreated()
+- 18:20:59.031 INFO: GET 200 /chrome-version.php
+- 18:20:59.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/iframe.php
+- 18:21:04.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/iframe.php
+- 18:21:04.562 DEBUG: OnContextCreated()
+- 18:21:04.734 INFO: GET 200 /index.php
+- 18:21:04.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:21:06.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:21:06.953 DEBUG: OnContextCreated()
+- 18:21:06.140 INFO: GET 200 /session.php
+- 18:21:06.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:17.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:17.375 DEBUG: OnContextCreated()
+- 18:21:17.547 INFO: GET 200 /session.php
+- 18:21:17.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:18.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:18.312 DEBUG: OnContextCreated()
+- 18:21:18.484 INFO: GET 200 /session.php
+- 18:21:18.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:19.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:19.828 DEBUG: OnContextCreated()
+- 18:21:19.015 INFO: GET 200 /session.php
+- 18:21:19.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:19.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:19.015 DEBUG: OnContextCreated()
+- 18:21:19.203 INFO: GET 200 /session.php
+- 18:21:19.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:19.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:19.250 DEBUG: OnContextCreated()
+- 18:21:19.422 INFO: GET 200 /session.php
+- 18:21:19.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:20.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:20.281 DEBUG: OnContextCreated()
+- 18:21:20.453 INFO: GET 200 /session.php
+- 18:21:20.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:21.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:21.015 DEBUG: OnContextCreated()
+- 18:21:21.187 INFO: GET 200 /session.php
+- 18:21:21.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:21.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:22.812 DEBUG: OnContextCreated()
+- 18:21:22.984 INFO: GET 200 /session.php
+- 18:21:22.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:24.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:24.984 DEBUG: OnContextCreated()
+- 18:21:24.156 INFO: GET 200 /index.php
+- 18:21:24.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:21:26.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:21:26.390 DEBUG: OnContextCreated()
+- 18:21:26.562 INFO: GET 200 /session.php
+- 18:21:26.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/session.php
+- 18:21:28.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/session.php
+- 18:21:28.609 DEBUG: OnContextCreated()
+- 18:21:28.781 INFO: GET 200 /index.php
+- 18:21:28.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:21:30.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:21:30.062 DEBUG: OnContextCreated()
+- 18:21:30.234 INFO: GET 200 /sqlite.php
+- 18:21:30.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/sqlite.php
+- 18:21:52.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/sqlite.php
+- 18:21:52.593 DEBUG: OnContextCreated()
+- 18:21:52.765 INFO: GET 200 /index.php
+- 18:21:52.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:21:56.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:21:56.593 DEBUG: OnContextCreated()
+- 18:21:56.765 INFO: GET 200 /upload.php
+- 18:21:56.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/upload.php
+- 18:22:01.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/upload.php
+- 18:22:01.156 DEBUG: OnContextCreated()
+- 18:22:01.328 INFO: GET 200 /index.php
+- 18:22:01.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:22:07.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:22:07.250 DEBUG: OnContextCreated()
+- 18:22:07.422 INFO: GET 200 /sqlite.php
+- 18:22:07.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/sqlite.php
+- 18:22:11.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/sqlite.php
+- 18:22:11.625 DEBUG: OnContextCreated()
+- 18:22:11.812 INFO: GET 200 /index.php
+- 18:22:11.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:22:13.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:22:13.422 DEBUG: OnContextCreated()
+- 18:22:13.594 INFO: GET 200 /google.php
+- 18:22:13.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/google.php
+- 18:22:15.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/google.php
+- 18:22:15.906 DEBUG: OnContextCreated()
+- 18:22:15.078 INFO: GET 200 /index.php
+- 18:22:15.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:22:16.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:22:16.718 DEBUG: OnContextCreated()
+- 18:22:16.890 INFO: GET 200 /forms.php
+- 18:22:16.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/forms.php
+- 18:22:19.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/forms.php
+- 18:22:19.062 DEBUG: OnContextCreated()
+- 18:22:19.234 INFO: GET 200 /index.php
+- 18:22:19.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:22:20.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:22:21.812 DEBUG: OnContextCreated()
+- 18:22:21.984 INFO: GET 200 /env-variables.php
+- 18:22:21.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/env-variables.php
+- 18:22:54.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/env-variables.php
+- 18:22:54.234 DEBUG: OnContextCreated()
+- 18:22:54.406 INFO: GET 200 /index.php
+- 18:22:54.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:22:56.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:22:56.781 DEBUG: OnContextCreated()
+- 18:22:56.953 INFO: GET 200 /execute-command.php
+- 18:22:56.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/execute-command.php
+- 18:23:20.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/execute-command.php
+- 18:23:20.093 DEBUG: OnContextCreated()
+- 18:23:20.265 INFO: GET 200 /index.php
+- 18:23:20.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:23.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:23:23.968 DEBUG: OnContextCreated()
+- 18:23:23.140 INFO: GET 200 /loading-error.php
+- 18:23:23.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/loading-error.php
+- 18:23:29.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/loading-error.php
+- 18:23:29.656 DEBUG: OnContextCreated()
+- 18:23:29.828 INFO: GET 200 /index.php
+- 18:23:29.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:32.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:23:32.000 DEBUG: OnContextCreated()
+- 18:23:32.187 INFO: GET 200 /php-error.php
+- 18:23:32.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/php-error.php
+- 18:23:34.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/php-error.php
+- 18:23:34.687 DEBUG: OnContextCreated()
+- 18:23:34.859 INFO: GET 200 /index.php
+- 18:23:34.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:37.015 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:23:37.875 DEBUG: OnContextCreated()
+- 18:23:37.047 INFO: GET 200 /popup.php
+- 18:23:37.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/popup.php
+- 18:23:38.797 DEBUG: ClientHandler::OnBeforePopup()
+- 18:23:38.797 DEBUG: Window max width/height = 1840/992
+- 18:23:38.625 DEBUG: OnBrowserCreated()
+- 18:23:38.625 DEBUG: OnContextCreated()
+- 18:23:38.797 DEBUG: ClientHandler::OnAfterCreated()
+- 18:23:38.797 DEBUG: GetBrowserWindow(): not found, hwnd = 331346
+- 18:23:38.797 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 18:23:38.812 DEBUG: StoreBrowserWindow(): hwnd = 331346
+- 18:23:38.812 DEBUG: Centering popup window relative to its parent
+- 18:23:38.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:23:38.859 INFO: GET 200 /index.php
+- 18:23:38.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:41.328 DEBUG: RemoveBrowserWindow(): hwnd = 331346
+- 18:23:41.172 DEBUG: OnBrowserDestroyed()
+- 18:23:42.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/popup.php
+- 18:23:42.547 DEBUG: OnContextCreated()
+- 18:23:42.734 INFO: GET 200 /index.php
+- 18:23:42.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:45.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:23:45.765 DEBUG: OnContextCreated()
+- 18:23:45.937 INFO: GET 200 /speech-recognition.php
+- 18:23:45.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/speech-recognition.php
+- 18:23:47.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/speech-recognition.php
+- 18:23:47.515 DEBUG: OnContextCreated()
+- 18:23:47.687 INFO: GET 200 /index.php
+- 18:23:47.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:23:51.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:23:51.906 DEBUG: OnContextCreated()
+- 18:23:51.078 INFO: GET 200 /request-quota.php
+- 18:23:51.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/request-quota.php
+- 18:23:55.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/request-quota.php
+- 18:23:56.812 DEBUG: OnContextCreated()
+- 18:23:56.984 INFO: GET 200 /index.php
+- 18:23:56.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:24:02.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:24:02.047 DEBUG: OnContextCreated()
+- 18:24:02.219 INFO: GET 200 /open-folder-in-explorer.php
+- 18:24:02.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/open-folder-in-explorer.php
+- 18:24:14.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/open-folder-in-explorer.php
+- 18:24:15.812 DEBUG: OnContextCreated()
+- 18:24:15.984 INFO: GET 200 /index.php
+- 18:24:15.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:24:19.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:24:19.265 DEBUG: OnContextCreated()
+- 18:24:19.437 INFO: GET 200 /javascript-api.php
+- 18:24:19.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/javascript-api.php
+- 18:24:23.844 DEBUG: browser[1] OnProcessMessageReceived: ToggleFullscreen
+- 18:24:25.234 DEBUG: browser[1] OnProcessMessageReceived: ToggleFullscreen
+- 18:24:31.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/javascript-api.php
+- 18:24:31.125 DEBUG: OnContextCreated()
+- 18:24:31.297 INFO: GET 200 /index.php
+- 18:24:31.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:24:36.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:24:36.922 DEBUG: OnContextCreated()
+- 18:24:36.094 INFO: GET 500 /error-500.php
+- 18:24:36.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/error-500.php
+- 18:24:37.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/error-500.php
+- 18:24:37.359 DEBUG: OnContextCreated()
+- 18:24:37.531 INFO: GET 200 /index.php
+- 18:24:37.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:24:39.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:24:39.203 DEBUG: OnContextCreated()
+- 18:24:39.375 INFO: GET 200 /download.php
+- 18:24:39.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/download.php
+- 18:24:41.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/download.php
+- 18:24:41.515 DEBUG: OnContextCreated()
+- 18:24:41.687 INFO: GET 200 /index.php
+- 18:24:41.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:24:48.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/index.php
+- 18:24:48.093 DEBUG: OnContextCreated()
+- 18:24:48.265 INFO: GET 200 /cookies.php
+- 18:24:48.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/cookies.php
+- 18:24:50.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52561/cookies.php
+- 18:24:50.843 DEBUG: OnContextCreated()
+- 18:24:50.031 INFO: GET 200 /index.php
+- 18:24:50.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52561/index.php
+- 18:27:01.140 DEBUG: WM_DESTROY
+- 18:27:01.140 DEBUG: RemoveBrowserWindow(): hwnd = 724502
+- 18:27:01.140 INFO: Stopping Mongoose web server
+- 18:27:01.140 DEBUG: Mongoose webserver stopped immediately
+- 18:27:01.140 DEBUG: RemoveBrowserWindow(): hwnd = 724498
+- 18:27:01.140 DEBUG: GetBrowserWindow(): not found, hwnd = 724498
+- 18:27:01.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:27:01.984 DEBUG: OnBrowserDestroyed()
+- 18:27:01.156 INFO: Ended application
+- 18:27:01.156 INFO: --------------------------------------------------------
+- 18:36:51.032 INFO: --------------------------------------------------------
+- 18:36:51.047 INFO: Started application
+- 18:36:51.047 INFO: Logging to: C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log
+- 18:36:51.047 INFO: Log level = DEBUG4
+- 18:36:51.047 INFO: Starting Mongoose 3.9c web server
+- 18:36:51.047 INFO: WWW directory: C:\Users\ddombroski\Documents\PHPDesktop\Laravel\www\public
+- 18:36:51.047 INFO: Index files: index.html,index.php
+- 18:36:51.047 INFO: CGI interpreter: C:\Users\ddombroski\Documents\PHPDesktop\Laravel\php\php-cgi.exe
+- 18:36:51.047 INFO: CGI pattern: **.php$
+- 18:36:51.047 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DDOMBR~1\AppData\Local\Temp\
+- 18:36:51.047 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 18:36:51.047 INFO: Web server url: http://127.0.0.1:57232/
+- 18:36:51.063 INFO: remote_debugging_port = 50543
+- 18:36:51.063 DEBUG: Command line string for the browser process: "C:\Users\ddombroski\Documents\PHPDesktop\Laravel\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log" --remote-debugging-port=50543 --no-sandbox
+- 18:36:51.157 DEBUG: App::OnContextInitialized()
+- 18:36:51.157 DEBUG: Window max width/height = 1840/992
+- 18:36:51.157 DEBUG: GetBrowserWindow(): not found, hwnd = 658876
+- 18:36:51.157 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 18:36:51.157 DEBUG: BrowserWindow::CreateBrowserControl()
+- 18:36:51.157 DEBUG: StoreBrowserWindow(): hwnd = 658876
+- 18:36:51.172 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 18:36:51.188 DEBUG: ClientHandler::OnAfterCreated()
+- 18:36:51.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:36:51.188 INFO: DPI, ppix = 96, ppiy = 96
+- 18:36:51.188 INFO: DPI, browser zoom level = 0
+- 18:36:51.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ddombroski\Documents\PHPDesktop\Laravel\phpdesktop-chrome.exe" --type=gpu-process --channel="7196.0.1548628476\488736575" --no-sandbox --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22,26 --gpu-vendor-id=0x10de --gpu-device-id=0x104a --gpu-driver-vendor=NVIDIA --gpu-driver-version=9.18.13.4052 --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log" /prefetch:822062411
+- 18:36:51.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:36:51.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\Laravel\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log" --channel="7196.1.1122056311\1641839532" /prefetch:673131151
+- 18:36:51.125 DEBUG: OnBrowserCreated()
+- 18:36:52.563 INFO: GET 200 /
+- 18:36:52.359 DEBUG: OnContextCreated()
+- 18:36:53.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57232/
+- 18:38:44.532 DEBUG: F12 pressed, opening developer tools
+- 18:38:44.532 INFO: DevTools url: http://127.0.0.1:50543/devtools/devtools.html?ws=127.0.0.1:50543/devtools/page/fa63ff1cf4ec144e359a19e1c60ba8a0
+- 18:38:44.532 DEBUG: Window max width/height = 1840/992
+- 18:38:44.532 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 18:38:44.532 DEBUG: StoreBrowserWindow(): hwnd = 725288
+- 18:38:44.532 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 18:38:44.547 DEBUG: ClientHandler::OnAfterCreated()
+- 18:38:44.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 18:38:44.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 18:38:44.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\Laravel\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\Laravel\debug.log" --channel="7196.2.1369222457\1517180724" /prefetch:673131151
+- 18:38:44.016 DEBUG: OnBrowserCreated()
+- 18:38:44.031 DEBUG: OnContextCreated()
+- 18:38:45.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50543/devtools/devtools.html?ws=127.0.0.1:50543/devtools/page/fa63ff1cf4ec144e359a19e1c60ba8a0
+- 18:38:48.407 DEBUG: WM_DESTROY
+- 18:38:48.407 DEBUG: RemoveBrowserWindow(): hwnd = 725288
+- 18:38:48.407 DEBUG: RemoveBrowserWindow(): hwnd = 332024
+- 18:38:48.407 DEBUG: GetBrowserWindow(): not found, hwnd = 332024
+- 18:38:48.407 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:39:36.516 DEBUG: F5 pressed, reloading page
+- 18:39:36.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57232/
+- 18:39:36.406 DEBUG: OnContextCreated()
+- 18:39:36.625 INFO: GET 200 /
+- 18:39:37.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57232/
+- 18:39:38.078 DEBUG: F5 pressed, reloading page
+- 18:39:38.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57232/
+- 18:39:38.953 DEBUG: OnContextCreated()
+- 18:39:38.172 INFO: GET 200 /
+- 18:39:38.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57232/
+- 18:39:47.453 DEBUG: WM_DESTROY
+- 18:39:47.453 DEBUG: RemoveBrowserWindow(): hwnd = 658876
+- 18:39:47.453 INFO: Stopping Mongoose web server
+- 18:39:47.453 DEBUG: Mongoose webserver stopped immediately
+- 18:39:47.453 DEBUG: RemoveBrowserWindow(): hwnd = 330860
+- 18:39:47.453 DEBUG: GetBrowserWindow(): not found, hwnd = 330860
+- 18:39:47.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:39:47.469 INFO: Ended application
+- 18:39:47.469 INFO: --------------------------------------------------------
+- 18:39:47.281 DEBUG: OnBrowserDestroyed()
+- 22:28:24.063 INFO: --------------------------------------------------------
+- 22:28:24.063 INFO: Started application
+- 22:28:24.063 INFO: Logging to: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log
+- 22:28:24.063 INFO: Log level = DEBUG4
+- 22:28:24.063 INFO: Starting Mongoose 3.9c web server
+- 22:28:24.063 INFO: WWW directory: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\www\public
+- 22:28:24.063 INFO: Index files: index.html,index.php
+- 22:28:24.063 INFO: CGI interpreter: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\php\php-cgi.exe
+- 22:28:24.063 INFO: CGI pattern: **.php$
+- 22:28:24.063 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DDOMBR~1\AppData\Local\Temp\
+- 22:28:24.063 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 22:28:24.078 INFO: Web server url: http://127.0.0.1:61090/
+- 22:28:24.078 INFO: remote_debugging_port = 55165
+- 22:28:24.078 DEBUG: Command line string for the browser process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --remote-debugging-port=55165 --no-sandbox
+- 22:28:24.219 DEBUG: App::OnContextInitialized()
+- 22:28:24.219 DEBUG: Window max width/height = 1840/992
+- 22:28:24.219 DEBUG: GetBrowserWindow(): not found, hwnd = 722664
+- 22:28:24.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:28:24.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:28:24.235 DEBUG: StoreBrowserWindow(): hwnd = 722664
+- 22:28:24.250 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 22:28:24.281 DEBUG: ClientHandler::OnAfterCreated()
+- 22:28:24.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:28:24.281 INFO: DPI, ppix = 96, ppiy = 96
+- 22:28:24.281 INFO: DPI, browser zoom level = 0
+- 22:28:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=gpu-process --channel="7092.0.142113583\206844484" --no-sandbox --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22,26 --gpu-vendor-id=0x10de --gpu-device-id=0x104a --gpu-driver-vendor=NVIDIA --gpu-driver-version=9.18.13.4052 --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" /prefetch:822062411
+- 22:28:24.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:28:24.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --channel="7092.1.931847861\536798942" /prefetch:673131151
+- 22:28:24.219 DEBUG: OnBrowserCreated()
+- 22:28:26.078 INFO: GET 200 /
+- 22:28:26.782 DEBUG: OnContextCreated()
+- 22:28:26.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:28:42.188 DEBUG: F5 pressed, reloading page
+- 22:28:42.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:28:42.985 DEBUG: OnContextCreated()
+- 22:28:42.313 INFO: GET 500 /
+- 22:28:42.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:28:43.125 DEBUG: F5 pressed, reloading page
+- 22:28:43.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:28:43.907 DEBUG: OnContextCreated()
+- 22:28:43.250 INFO: GET 500 /
+- 22:28:43.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:28:43.344 DEBUG: F5 pressed, reloading page
+- 22:28:43.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:28:43.141 DEBUG: OnContextCreated()
+- 22:28:43.469 INFO: GET 500 /
+- 22:28:43.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:28:43.500 DEBUG: F5 pressed, reloading page
+- 22:28:43.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:28:43.266 DEBUG: OnContextCreated()
+- 22:28:43.610 INFO: GET 500 /
+- 22:28:43.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:28:43.688 DEBUG: F5 pressed, reloading page
+- 22:28:43.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:28:43.469 DEBUG: OnContextCreated()
+- 22:28:43.797 INFO: GET 500 /
+- 22:28:43.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:29:01.531 DEBUG: F5 pressed, reloading page
+- 22:29:01.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:29:01.375 DEBUG: OnContextCreated()
+- 22:29:01.719 INFO: GET 500 /
+- 22:29:02.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:29:02.000 DEBUG: Command line string for the plugin process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=plugin --plugin-path="C:\Windows\SysWOW64\Macromed\Flash\NPSWF32.dll" --no-sandbox --lang=en-US --channel="7092.2.697671138\1013576866" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" /prefetch:-390060480
+- 22:30:39.531 DEBUG: F5 pressed, reloading page
+- 22:30:39.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:30:39.719 INFO: GET 500 /
+- 22:30:39.594 DEBUG: OnContextCreated()
+- 22:30:40.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:30:40.875 DEBUG: F5 pressed, reloading page
+- 22:30:40.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:30:41.016 INFO: GET 500 /
+[0121/223041:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:30:41.891 DEBUG: OnContextCreated()
+- 22:30:41.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:30:42.141 DEBUG: F5 pressed, reloading page
+- 22:30:42.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:30:42.328 INFO: GET 500 /
+[0121/223042:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:30:42.203 DEBUG: OnContextCreated()
+- 22:30:42.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:30:52.656 DEBUG: F5 pressed, reloading page
+- 22:30:52.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:30:52.844 INFO: GET 500 /
+[0121/223053:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:30:53.719 DEBUG: OnContextCreated()
+- 22:30:53.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:32:15.016 DEBUG: F5 pressed, reloading page
+- 22:32:15.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:32:15.188 INFO: GET 500 /
+[0121/223215:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:32:15.063 DEBUG: OnContextCreated()
+- 22:32:15.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:32:16.719 DEBUG: F5 pressed, reloading page
+- 22:32:16.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:32:16.891 INFO: GET 500 /
+[0121/223217:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:32:17.766 DEBUG: OnContextCreated()
+- 22:32:17.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:32:25.297 DEBUG: F5 pressed, reloading page
+- 22:32:25.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:32:25.469 INFO: GET 500 /
+- 22:32:25.360 DEBUG: OnContextCreated()
+- 22:32:25.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:34:46.844 DEBUG: F5 pressed, reloading page
+- 22:34:46.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:34:47.016 INFO: GET 500 /
+- 22:34:47.891 DEBUG: OnContextCreated()
+- 22:34:47.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:34:48.594 DEBUG: F5 pressed, reloading page
+- 22:34:48.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:34:48.813 INFO: GET 500 /
+- 22:34:49.688 DEBUG: OnContextCreated()
+- 22:34:49.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:03.828 DEBUG: F5 pressed, reloading page
+- 22:35:03.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:03.969 INFO: GET 500 /
+[0121/223504:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:35:04.844 DEBUG: OnContextCreated()
+- 22:35:04.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:23.688 DEBUG: F5 pressed, reloading page
+- 22:35:23.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:23.860 INFO: GET 500 /
+- 22:35:24.735 DEBUG: OnContextCreated()
+- 22:35:24.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:25.391 DEBUG: F5 pressed, reloading page
+- 22:35:25.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:25.563 INFO: GET 500 /
+- 22:35:25.438 DEBUG: OnContextCreated()
+- 22:35:25.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:34.750 DEBUG: F5 pressed, reloading page
+- 22:35:34.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:34.860 INFO: GET 200 /
+- 22:35:35.735 DEBUG: OnContextCreated()
+- 22:35:35.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:40.969 DEBUG: F5 pressed, reloading page
+- 22:35:40.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:41.782 DEBUG: OnContextCreated()
+- 22:35:41.125 INFO: GET 500 /
+- 22:35:41.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:35:46.219 DEBUG: F5 pressed, reloading page
+- 22:35:46.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:35:46.328 INFO: GET 200 /
+- 22:35:46.203 DEBUG: OnContextCreated()
+- 22:35:46.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:36:39.219 DEBUG: F5 pressed, reloading page
+- 22:36:39.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:36:39.000 DEBUG: OnContextCreated()
+- 22:36:39.328 INFO: GET 200 /
+- 22:36:39.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:36:52.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:36:52.828 DEBUG: OnContextCreated()
+- 22:36:52.156 INFO: POST 500 /connections/setNewConnection
+- 22:36:52.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:37:01.891 DEBUG: F5 pressed, reloading page
+- 22:37:08.016 DEBUG: F5 pressed, reloading page
+- 22:37:08.969 DEBUG: F5 pressed, reloading page
+- 22:37:09.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:37:09.438 DEBUG: OnContextCreated()
+- 22:37:09.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:37:16.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:37:16.313 DEBUG: OnContextCreated()
+- 22:37:16.641 INFO: POST 500 /connections/setNewConnection
+- 22:37:16.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:37:36.031 DEBUG: F5 pressed, reloading page
+- 22:37:36.813 DEBUG: F5 pressed, reloading page
+- 22:37:37.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+[0121/223737:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:37:37.453 DEBUG: OnContextCreated()
+- 22:37:37.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:37:43.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:37:43.110 DEBUG: OnContextCreated()
+- 22:37:43.453 INFO: POST 500 /connections/setNewConnection
+- 22:37:43.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:37:56.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+[0121/223756:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:37:56.344 DEBUG: OnContextCreated()
+- 22:37:56.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:38:02.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:38:02.422 DEBUG: OnContextCreated()
+- 22:38:02.766 INFO: POST 500 /connections/setNewConnection
+- 22:38:02.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:38:10.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+[0121/223811:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:38:11.688 DEBUG: OnContextCreated()
+- 22:38:11.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:38:15.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:38:15.422 DEBUG: OnContextCreated()
+- 22:38:15.750 INFO: POST 500 /connections/setNewConnection
+- 22:38:15.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:40:04.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+[0121/224005:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:40:05.860 DEBUG: OnContextCreated()
+- 22:40:05.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:40:10.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:40:10.407 DEBUG: OnContextCreated()
+- 22:40:10.735 INFO: POST 500 /connections/setNewConnection
+- 22:40:10.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:40:50.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:40:50.547 DEBUG: OnContextCreated()
+- 22:40:50.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:40:56.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:40:56.422 DEBUG: OnContextCreated()
+- 22:40:56.750 INFO: POST 200 /connections/setNewConnection
+- 22:40:56.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:27.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:27.672 DEBUG: OnContextCreated()
+- 22:41:27.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:41:32.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:41:32.156 INFO: POST 302 /connections/setNewConnection
+- 22:41:32.938 DEBUG: OnContextCreated()
+- 22:41:32.281 INFO: GET 500 /connections/setNewConnection
+- 22:41:32.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:55.250 DEBUG: F5 pressed, reloading page
+- 22:41:55.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:55.360 INFO: GET 200 /connections/setNewConnection
+[0121/224155:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 22:41:55.250 DEBUG: OnContextCreated()
+- 22:41:55.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:58.344 DEBUG: F5 pressed, reloading page
+- 22:41:58.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:41:58.453 INFO: GET 200 /connections/setNewConnection
+- 22:41:58.125 DEBUG: OnContextCreated()
+- 22:41:58.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:42:01.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/connections/setNewConnection
+- 22:42:01.469 DEBUG: OnContextCreated()
+- 22:42:01.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:42:03.860 DEBUG: F5 pressed, reloading page
+- 22:42:03.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:42:04.657 DEBUG: OnContextCreated()
+- 22:42:04.985 INFO: GET 200 /
+- 22:42:04.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:42:04.766 DEBUG: F5 pressed, reloading page
+- 22:42:04.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:42:04.532 DEBUG: OnContextCreated()
+- 22:42:04.860 INFO: GET 200 /
+- 22:42:04.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:42:05.063 DEBUG: F5 pressed, reloading page
+- 22:42:05.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:42:05.844 DEBUG: OnContextCreated()
+- 22:42:05.172 INFO: GET 200 /
+- 22:42:05.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:42:05.266 DEBUG: F5 pressed, reloading page
+- 22:42:05.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:42:05.047 DEBUG: OnContextCreated()
+- 22:42:05.375 INFO: GET 200 /
+- 22:42:05.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:18.656 DEBUG: F5 pressed, reloading page
+- 22:44:18.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:18.781 INFO: GET 200 /
+- 22:44:18.453 DEBUG: OnContextCreated()
+- 22:44:18.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:20.656 DEBUG: F5 pressed, reloading page
+- 22:44:20.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:20.766 INFO: GET 200 /
+- 22:44:20.438 DEBUG: OnContextCreated()
+- 22:44:20.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:21.391 DEBUG: F5 pressed, reloading page
+- 22:44:21.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:21.531 INFO: GET 200 /
+- 22:44:21.203 DEBUG: OnContextCreated()
+- 22:44:21.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:21.625 DEBUG: F5 pressed, reloading page
+- 22:44:21.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:21.735 INFO: GET 200 /
+- 22:44:21.422 DEBUG: OnContextCreated()
+- 22:44:21.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:21.797 DEBUG: F5 pressed, reloading page
+- 22:44:21.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:21.906 INFO: GET 200 /
+- 22:44:21.578 DEBUG: OnContextCreated()
+- 22:44:21.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:22.000 DEBUG: F5 pressed, reloading page
+- 22:44:22.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:22.125 INFO: GET 200 /
+- 22:44:22.797 DEBUG: OnContextCreated()
+- 22:44:22.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:22.235 DEBUG: F5 pressed, reloading page
+- 22:44:22.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:22.360 INFO: GET 200 /
+- 22:44:22.032 DEBUG: OnContextCreated()
+- 22:44:22.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:41.656 DEBUG: F5 pressed, reloading page
+- 22:44:41.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:41.766 INFO: GET 200 /
+- 22:44:41.438 DEBUG: OnContextCreated()
+- 22:44:41.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:44.578 DEBUG: F5 pressed, reloading page
+- 22:44:44.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:44.719 INFO: GET 200 /
+- 22:44:44.391 DEBUG: OnContextCreated()
+- 22:44:44.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:44:44.813 DEBUG: F5 pressed, reloading page
+- 22:44:44.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:44:44.953 INFO: GET 200 /
+- 22:44:44.625 DEBUG: OnContextCreated()
+- 22:44:44.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:45:05.328 DEBUG: F5 pressed, reloading page
+- 22:45:05.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:45:05.438 INFO: GET 200 /
+- 22:45:05.110 DEBUG: OnContextCreated()
+- 22:45:05.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:45:06.719 DEBUG: F5 pressed, reloading page
+- 22:45:06.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:45:06.844 INFO: GET 200 /
+- 22:45:06.516 DEBUG: OnContextCreated()
+- 22:45:06.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:45:06.891 DEBUG: F5 pressed, reloading page
+- 22:45:06.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:45:07.016 INFO: GET 200 /
+- 22:45:07.688 DEBUG: OnContextCreated()
+- 22:45:07.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:45:07.063 DEBUG: F5 pressed, reloading page
+- 22:45:07.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:45:07.141 INFO: GET 200 /
+- 22:45:07.813 DEBUG: OnContextCreated()
+- 22:45:07.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:43.610 DEBUG: F5 pressed, reloading page
+- 22:46:43.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:43.703 INFO: GET 200 /
+- 22:46:43.375 DEBUG: OnContextCreated()
+- 22:46:43.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:44.125 DEBUG: F5 pressed, reloading page
+- 22:46:44.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:44.266 INFO: GET 200 /
+- 22:46:44.938 DEBUG: OnContextCreated()
+- 22:46:44.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:44.344 DEBUG: F5 pressed, reloading page
+- 22:46:44.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:44.469 INFO: GET 200 /
+- 22:46:44.141 DEBUG: OnContextCreated()
+- 22:46:44.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:44.516 DEBUG: F5 pressed, reloading page
+- 22:46:44.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:44.641 INFO: GET 200 /
+- 22:46:44.328 DEBUG: OnContextCreated()
+- 22:46:44.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:44.688 DEBUG: F5 pressed, reloading page
+- 22:46:44.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:44.766 INFO: GET 200 /
+- 22:46:44.438 DEBUG: OnContextCreated()
+- 22:46:44.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:44.844 DEBUG: F5 pressed, reloading page
+- 22:46:44.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:45.985 INFO: GET 200 /
+- 22:46:45.657 DEBUG: OnContextCreated()
+- 22:46:45.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:47.000 DEBUG: F5 pressed, reloading page
+- 22:46:47.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:47.110 INFO: GET 200 /
+- 22:46:47.782 DEBUG: OnContextCreated()
+- 22:46:47.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:47.188 DEBUG: F5 pressed, reloading page
+- 22:46:47.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:47.313 INFO: GET 200 /
+- 22:46:47.985 DEBUG: OnContextCreated()
+- 22:46:47.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:47.344 DEBUG: F5 pressed, reloading page
+- 22:46:47.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:47.453 INFO: GET 200 /
+- 22:46:47.125 DEBUG: OnContextCreated()
+- 22:46:47.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:46:47.500 DEBUG: F5 pressed, reloading page
+- 22:46:47.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:46:47.610 INFO: GET 200 /
+- 22:46:47.282 DEBUG: OnContextCreated()
+- 22:46:47.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:47:19.360 DEBUG: F5 pressed, reloading page
+- 22:47:19.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:47:19.485 INFO: GET 200 /
+- 22:47:19.157 DEBUG: OnContextCreated()
+- 22:47:19.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:47:19.531 DEBUG: F5 pressed, reloading page
+- 22:47:19.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:47:19.656 INFO: GET 200 /
+- 22:47:19.328 DEBUG: OnContextCreated()
+- 22:47:19.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:47:19.688 DEBUG: F5 pressed, reloading page
+- 22:47:19.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61090/
+- 22:47:19.766 INFO: GET 200 /
+- 22:47:19.453 DEBUG: OnContextCreated()
+- 22:47:19.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61090/
+- 22:47:22.141 DEBUG: WM_DESTROY
+- 22:47:22.141 DEBUG: RemoveBrowserWindow(): hwnd = 722664
+- 22:47:22.141 INFO: Stopping Mongoose web server
+- 22:47:22.141 DEBUG: Mongoose webserver stopped immediately
+- 22:47:22.141 DEBUG: RemoveBrowserWindow(): hwnd = 525346
+- 22:47:22.141 DEBUG: GetBrowserWindow(): not found, hwnd = 525346
+- 22:47:22.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:47:22.828 DEBUG: OnBrowserDestroyed()
+- 22:47:22.156 INFO: Ended application
+- 22:47:22.156 INFO: --------------------------------------------------------
+- 22:47:25.031 INFO: --------------------------------------------------------
+- 22:47:25.031 INFO: Started application
+- 22:47:25.031 INFO: Logging to: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log
+- 22:47:25.031 INFO: Log level = DEBUG4
+- 22:47:25.031 INFO: Starting Mongoose 3.9c web server
+- 22:47:25.031 INFO: WWW directory: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\www\public
+- 22:47:25.031 INFO: Index files: index.html,index.php
+- 22:47:25.031 INFO: CGI interpreter: C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\php\php-cgi.exe
+- 22:47:25.031 INFO: CGI pattern: **.php$
+- 22:47:25.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DDOMBR~1\AppData\Local\Temp\
+- 22:47:25.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 22:47:25.047 INFO: Web server url: http://127.0.0.1:61604/
+- 22:47:25.047 INFO: remote_debugging_port = 59960
+- 22:47:25.047 DEBUG: Command line string for the browser process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --remote-debugging-port=59960 --no-sandbox
+- 22:47:25.078 DEBUG: App::OnContextInitialized()
+- 22:47:25.078 DEBUG: Window max width/height = 1840/992
+- 22:47:25.078 DEBUG: GetBrowserWindow(): not found, hwnd = 590882
+- 22:47:25.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:47:25.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:47:25.078 DEBUG: StoreBrowserWindow(): hwnd = 590882
+- 22:47:25.078 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 22:47:25.093 DEBUG: ClientHandler::OnAfterCreated()
+- 22:47:25.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:47:25.093 INFO: DPI, ppix = 96, ppiy = 96
+- 22:47:25.093 INFO: DPI, browser zoom level = 0
+- 22:47:25.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=gpu-process --channel="3856.0.1656969593\670591413" --no-sandbox --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22,26 --gpu-vendor-id=0x10de --gpu-device-id=0x104a --gpu-driver-vendor=NVIDIA --gpu-driver-version=9.18.13.4052 --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" /prefetch:822062411
+- 22:47:25.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:47:25.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --channel="3856.1.2024419997\1617727321" /prefetch:673131151
+- 22:47:25.015 DEBUG: OnBrowserCreated()
+- 22:47:26.297 INFO: GET 200 /
+- 22:47:26.187 DEBUG: OnContextCreated()
+- 22:47:26.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:23.422 DEBUG: F5 pressed, reloading page
+- 22:48:23.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:23.390 DEBUG: OnContextCreated()
+- 22:48:23.515 INFO: GET 200 /
+- 22:48:23.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:24.687 DEBUG: F5 pressed, reloading page
+- 22:48:24.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:24.656 DEBUG: OnContextCreated()
+- 22:48:24.781 INFO: GET 200 /
+- 22:48:24.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:25.859 DEBUG: F5 pressed, reloading page
+- 22:48:25.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:25.859 DEBUG: OnContextCreated()
+- 22:48:25.984 INFO: GET 200 /
+- 22:48:25.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:45.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:45.140 INFO: POST 302 /connections/setNewConnection
+- 22:48:45.093 DEBUG: OnContextCreated()
+- 22:48:45.218 INFO: GET 200 /
+- 22:48:45.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:48.953 DEBUG: F5 pressed, reloading page
+- 22:48:48.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:48.937 DEBUG: OnContextCreated()
+- 22:48:48.078 INFO: GET 200 /
+- 22:48:48.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:48.781 DEBUG: F5 pressed, reloading page
+- 22:48:48.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:49.765 DEBUG: OnContextCreated()
+- 22:48:49.890 INFO: GET 200 /
+- 22:48:49.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:49.000 DEBUG: F5 pressed, reloading page
+- 22:48:49.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:49.000 DEBUG: OnContextCreated()
+- 22:48:49.125 INFO: GET 200 /
+- 22:48:49.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:49.203 DEBUG: F5 pressed, reloading page
+- 22:48:49.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:49.187 DEBUG: OnContextCreated()
+- 22:48:49.312 INFO: GET 200 /
+- 22:48:49.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:49.468 DEBUG: F5 pressed, reloading page
+- 22:48:49.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:49.468 DEBUG: OnContextCreated()
+- 22:48:49.609 INFO: GET 200 /
+- 22:48:49.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:49.718 DEBUG: F5 pressed, reloading page
+- 22:48:49.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.703 DEBUG: OnContextCreated()
+- 22:48:50.828 INFO: GET 200 /
+- 22:48:50.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:50.922 DEBUG: F5 pressed, reloading page
+- 22:48:50.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.906 DEBUG: OnContextCreated()
+- 22:48:50.031 INFO: GET 200 /
+- 22:48:50.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:50.093 DEBUG: F5 pressed, reloading page
+- 22:48:50.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.093 DEBUG: OnContextCreated()
+- 22:48:50.218 INFO: GET 200 /
+- 22:48:50.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:50.281 DEBUG: F5 pressed, reloading page
+- 22:48:50.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.265 DEBUG: OnContextCreated()
+- 22:48:50.406 INFO: GET 200 /
+- 22:48:50.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:50.453 DEBUG: F5 pressed, reloading page
+- 22:48:50.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.453 DEBUG: OnContextCreated()
+- 22:48:50.578 INFO: GET 200 /
+- 22:48:50.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:48:50.640 DEBUG: F5 pressed, reloading page
+- 22:48:50.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:48:50.640 DEBUG: OnContextCreated()
+- 22:48:50.781 INFO: GET 200 /
+- 22:48:50.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:01.656 DEBUG: F5 pressed, reloading page
+- 22:50:01.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:01.640 DEBUG: OnContextCreated()
+- 22:50:01.765 INFO: GET 200 /
+- 22:50:01.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:02.281 DEBUG: F5 pressed, reloading page
+- 22:50:02.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:02.281 DEBUG: OnContextCreated()
+- 22:50:02.406 INFO: GET 200 /
+- 22:50:02.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:02.531 DEBUG: F5 pressed, reloading page
+- 22:50:02.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:02.515 DEBUG: OnContextCreated()
+- 22:50:02.640 INFO: GET 200 /
+- 22:50:02.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:02.718 DEBUG: F5 pressed, reloading page
+- 22:50:02.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:03.703 DEBUG: OnContextCreated()
+- 22:50:03.828 INFO: GET 200 /
+- 22:50:03.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:04.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:04.359 DEBUG: OnContextCreated()
+- 22:50:04.484 INFO: POST 500 /connections/setNewConnection
+- 22:50:04.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/connections/setNewConnection
+- 22:50:04.000 DEBUG: Command line string for the plugin process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=plugin --plugin-path="C:\Windows\SysWOW64\Macromed\Flash\NPSWF32.dll" --no-sandbox --lang=en-US --channel="3856.2.1689331192\994662370" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" /prefetch:-390060480
+- 22:50:07.156 DEBUG: F5 pressed, reloading page
+- 22:50:12.343 DEBUG: F5 pressed, reloading page
+- 22:50:13.000 DEBUG: F5 pressed, reloading page
+- 22:50:13.234 DEBUG: F5 pressed, reloading page
+- 22:50:13.406 DEBUG: F5 pressed, reloading page
+- 22:50:14.890 DEBUG: F5 pressed, reloading page
+- 22:50:14.062 DEBUG: F5 pressed, reloading page
+- 22:50:14.234 DEBUG: F5 pressed, reloading page
+- 22:50:16.047 DEBUG: F5 pressed, reloading page
+- 22:50:16.547 DEBUG: F5 pressed, reloading page
+- 22:50:16.593 DEBUG: F5 pressed, reloading page
+- 22:50:16.625 DEBUG: F5 pressed, reloading page
+- 22:50:16.656 DEBUG: F5 pressed, reloading page
+- 22:50:16.687 DEBUG: F5 pressed, reloading page
+- 22:50:16.718 DEBUG: F5 pressed, reloading page
+- 22:50:16.750 DEBUG: F5 pressed, reloading page
+- 22:50:16.781 DEBUG: F5 pressed, reloading page
+- 22:50:17.812 DEBUG: F5 pressed, reloading page
+- 22:50:17.843 DEBUG: F5 pressed, reloading page
+- 22:50:17.875 DEBUG: F5 pressed, reloading page
+- 22:50:17.922 DEBUG: F5 pressed, reloading page
+- 22:50:17.953 DEBUG: F5 pressed, reloading page
+- 22:50:18.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/connections/setNewConnection
+- 22:50:18.468 DEBUG: OnContextCreated()
+- 22:50:18.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:19.390 DEBUG: F5 pressed, reloading page
+- 22:50:19.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:19.359 DEBUG: OnContextCreated()
+- 22:50:19.484 INFO: GET 200 /
+- 22:50:19.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:20.047 DEBUG: F5 pressed, reloading page
+- 22:50:20.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:20.031 DEBUG: OnContextCreated()
+- 22:50:20.156 INFO: GET 200 /
+- 22:50:20.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:20.234 DEBUG: F5 pressed, reloading page
+- 22:50:20.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:20.218 DEBUG: OnContextCreated()
+- 22:50:20.343 INFO: GET 200 /
+- 22:50:20.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:21.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:21.687 INFO: POST 302 /connections/setNewConnection
+- 22:50:21.656 DEBUG: OnContextCreated()
+- 22:50:21.781 INFO: GET 200 /
+- 22:50:21.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:28.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:28.531 INFO: POST 302 /connections/setNewConnection
+- 22:50:28.468 DEBUG: OnContextCreated()
+- 22:50:28.609 INFO: GET 200 /
+- 22:50:28.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:50:38.422 INFO: DevTools url: http://127.0.0.1:59960/devtools/devtools.html?ws=127.0.0.1:59960/devtools/page/063f9bc60e9933c0b8cf010aa99650ab
+- 22:50:38.422 DEBUG: Window max width/height = 1840/992
+- 22:50:38.437 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 22:50:38.437 DEBUG: StoreBrowserWindow(): hwnd = 3543176
+- 22:50:38.437 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 22:50:38.437 DEBUG: ClientHandler::OnAfterCreated()
+- 22:50:38.437 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:50:38.453 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:50:38.015 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --channel="3856.3.1352401128\16060402" /prefetch:673131151
+- 22:50:38.031 DEBUG: OnBrowserCreated()
+- 22:50:38.047 DEBUG: OnContextCreated()
+- 22:50:38.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59960/devtools/devtools.html?ws=127.0.0.1:59960/devtools/page/063f9bc60e9933c0b8cf010aa99650ab
+- 22:50:56.906 DEBUG: F5 pressed, reloading page
+- 22:50:56.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:50:56.875 DEBUG: OnContextCreated()
+- 22:50:56.000 INFO: GET 200 /
+- 22:50:56.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:51:08.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:51:08.672 INFO: POST 302 /connections/setNewConnection
+- 22:51:08.625 DEBUG: OnContextCreated()
+- 22:51:08.750 INFO: GET 200 /
+- 22:51:08.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:51:22.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:51:22.328 INFO: POST 302 /connections/setNewConnection
+- 22:51:22.281 DEBUG: OnContextCreated()
+- 22:51:22.406 INFO: GET 200 /
+- 22:51:22.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 22:53:32.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 22:53:32.484 INFO: POST 302 /connections/setNewConnection
+- 22:53:32.453 DEBUG: OnContextCreated()
+- 22:53:32.578 INFO: GET 200 /
+- 22:53:32.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:07:13.609 DEBUG: F5 pressed, reloading page
+- 23:07:13.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:07:14.047 DEBUG: OnContextCreated()
+- 23:07:14.172 INFO: GET 200 /
+- 23:07:14.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:07:47.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:07:47.515 INFO: POST 302 /connections/setNewConnection
+- 23:07:47.468 DEBUG: OnContextCreated()
+- 23:07:47.593 INFO: GET 200 /
+- 23:07:47.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:08:28.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:08:28.234 INFO: POST 302 /connections/setNewConnection
+- 23:08:28.187 DEBUG: OnContextCreated()
+- 23:08:28.312 INFO: GET 200 /
+- 23:08:28.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:08:32.109 DEBUG: F5 pressed, reloading page
+- 23:08:32.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:08:32.093 DEBUG: OnContextCreated()
+- 23:08:32.218 INFO: GET 200 /
+- 23:08:32.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:08:32.625 DEBUG: F5 pressed, reloading page
+- 23:08:32.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:08:32.609 DEBUG: OnContextCreated()
+- 23:08:32.734 INFO: GET 200 /
+- 23:08:32.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:09:36.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:09:36.375 INFO: POST 302 /connections/setNewConnection
+- 23:09:36.328 DEBUG: OnContextCreated()
+- 23:09:36.453 INFO: GET 200 /
+- 23:09:36.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:16:34.406 DEBUG: F5 pressed, reloading page
+- 23:16:34.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:16:34.390 DEBUG: OnContextCreated()
+- 23:16:34.531 INFO: GET 200 /
+- 23:16:34.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:17:35.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:17:35.156 DEBUG: OnContextCreated()
+- 23:17:35.297 INFO: POST 500 /connections/setNewConnection
+- 23:17:35.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/connections/setNewConnection
+- 23:17:36.000 DEBUG: Command line string for the plugin process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=plugin --plugin-path="C:\Windows\SysWOW64\Macromed\Flash\NPSWF32.dll" --no-sandbox --lang=en-US --channel="3856.4.976026667\1621320916" --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" /prefetch:-390060480
+- 23:19:12.593 DEBUG: F5 pressed, reloading page
+- 23:19:13.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/connections/setNewConnection
+- 23:19:13.593 DEBUG: OnContextCreated()
+- 23:19:13.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:19:15.984 DEBUG: F5 pressed, reloading page
+- 23:19:15.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:19:15.968 DEBUG: OnContextCreated()
+- 23:19:15.093 INFO: GET 200 /
+- 23:19:15.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:20:04.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:20:04.015 INFO: POST 302 /connections/setNewConnection
+- 23:20:04.031 DEBUG: OnContextCreated()
+- 23:20:04.156 INFO: GET 500 /
+- 23:20:04.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:20:37.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+[0121/232038:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:20:38.797 DEBUG: OnContextCreated()
+- 23:20:38.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:20:39.468 DEBUG: F5 pressed, reloading page
+- 23:20:39.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:20:39.656 INFO: GET 500 /
+[0121/232040:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:20:40.734 DEBUG: OnContextCreated()
+- 23:20:40.875 DEBUG: F5 pressed, reloading page
+- 23:20:40.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:20:40.875 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:61604/
+- 23:20:40.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:20:40.906 DEBUG: OnContextCreated()
+- 23:20:40.031 INFO: GET 500 /
+- 23:20:40.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:21:59.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+[0121/232159:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:21:59.203 DEBUG: OnContextCreated()
+- 23:21:59.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:22:00.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+[0121/232200:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:22:00.484 DEBUG: OnContextCreated()
+- 23:22:00.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:22:01.328 DEBUG: F5 pressed, reloading page
+- 23:22:01.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:22:01.453 INFO: GET 500 /
+[0121/232201:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:22:01.531 DEBUG: OnContextCreated()
+- 23:22:02.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:22:03.187 DEBUG: F5 pressed, reloading page
+- 23:22:03.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:22:03.328 INFO: GET 500 /
+[0121/232203:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:22:03.406 DEBUG: OnContextCreated()
+- 23:22:03.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:22:39.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:22:39.484 DEBUG: OnContextCreated()
+- 23:22:39.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:23:03.172 DEBUG: F5 pressed, reloading page
+- 23:23:03.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:23:03.281 INFO: GET 200 /
+[0121/232303:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:23:03.359 DEBUG: OnContextCreated()
+- 23:23:03.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:23:33.328 DEBUG: F5 pressed, reloading page
+- 23:23:33.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:23:33.328 DEBUG: OnContextCreated()
+- 23:23:33.468 INFO: GET 500 /
+- 23:23:33.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:23:50.140 DEBUG: F5 pressed, reloading page
+- 23:23:50.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:23:50.265 INFO: GET 500 /
+[0121/232350:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:23:50.343 DEBUG: OnContextCreated()
+- 23:23:50.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:23:53.343 DEBUG: F5 pressed, reloading page
+- 23:23:53.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:23:53.468 INFO: GET 500 /
+[0121/232353:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:23:53.547 DEBUG: OnContextCreated()
+- 23:23:54.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:23:59.203 DEBUG: F5 pressed, reloading page
+- 23:23:59.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:23:59.312 INFO: GET 500 /
+[0121/232359:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:23:59.390 DEBUG: OnContextCreated()
+- 23:23:59.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:24:00.437 DEBUG: F5 pressed, reloading page
+- 23:24:00.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:24:00.547 INFO: GET 500 /
+[0121/232400:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:24:00.625 DEBUG: OnContextCreated()
+- 23:24:01.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:24:05.218 DEBUG: F5 pressed, reloading page
+- 23:24:05.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:24:05.343 INFO: GET 500 /
+[0121/232405:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:24:05.422 DEBUG: OnContextCreated()
+- 23:24:05.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:24:36.984 DEBUG: F5 pressed, reloading page
+- 23:24:36.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:24:36.093 INFO: GET 500 /
+- 23:24:36.172 DEBUG: OnContextCreated()
+- 23:24:36.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:24:43.875 DEBUG: F5 pressed, reloading page
+- 23:24:43.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:24:43.984 INFO: GET 500 /
+[0121/232443:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:24:43.078 DEBUG: OnContextCreated()
+- 23:24:43.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:26:14.843 DEBUG: F5 pressed, reloading page
+- 23:26:14.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:26:14.953 INFO: GET 500 /
+[0121/232614:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:26:14.047 DEBUG: OnContextCreated()
+- 23:26:14.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:26:15.531 DEBUG: F5 pressed, reloading page
+- 23:26:15.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:26:15.640 INFO: GET 500 /
+[0121/232616:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:26:16.718 DEBUG: OnContextCreated()
+- 23:26:16.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:27:08.609 DEBUG: F5 pressed, reloading page
+- 23:27:08.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:27:08.750 INFO: GET 500 /
+- 23:27:09.828 DEBUG: OnContextCreated()
+- 23:27:09.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:27:48.078 DEBUG: F5 pressed, reloading page
+- 23:27:48.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:27:48.218 INFO: GET 500 /
+[0121/232748:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:27:48.297 DEBUG: OnContextCreated()
+- 23:27:48.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:27:49.765 DEBUG: F5 pressed, reloading page
+- 23:27:49.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:27:50.890 INFO: GET 500 /
+[0121/232750:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:27:50.968 DEBUG: OnContextCreated()
+- 23:27:50.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:28:12.609 DEBUG: F5 pressed, reloading page
+- 23:28:12.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:28:12.734 INFO: GET 500 /
+- 23:28:13.812 DEBUG: OnContextCreated()
+- 23:28:13.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:28:14.015 DEBUG: F5 pressed, reloading page
+- 23:28:14.015 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:28:14.125 INFO: GET 500 /
+[0121/232814:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:28:14.218 DEBUG: OnContextCreated()
+- 23:28:14.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:28:22.343 DEBUG: F5 pressed, reloading page
+- 23:28:22.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:28:22.484 INFO: GET 500 /
+- 23:28:22.562 DEBUG: OnContextCreated()
+- 23:28:23.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:28:24.343 DEBUG: F5 pressed, reloading page
+- 23:28:24.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:28:24.453 INFO: GET 500 /
+[0121/232824:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:28:24.547 DEBUG: OnContextCreated()
+- 23:28:25.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:35:38.390 DEBUG: F5 pressed, reloading page
+- 23:35:38.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:35:38.547 INFO: GET 500 /
+[0121/233538:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:35:38.625 DEBUG: OnContextCreated()
+- 23:35:39.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:40:35.625 DEBUG: F5 pressed, reloading page
+- 23:40:35.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:40:35.734 INFO: GET 500 /
+- 23:40:36.828 DEBUG: OnContextCreated()
+- 23:40:36.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:40:37.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:40:38.765 DEBUG: OnContextCreated()
+- 23:40:38.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:40:39.390 DEBUG: F5 pressed, reloading page
+- 23:40:39.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:40:39.500 INFO: GET 500 /
+[0121/234039:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:40:39.578 DEBUG: OnContextCreated()
+- 23:40:40.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:40:48.250 DEBUG: F5 pressed, reloading page
+- 23:40:48.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:40:48.359 INFO: GET 500 /
+[0121/234048:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:40:48.437 DEBUG: OnContextCreated()
+- 23:40:48.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:40:50.078 DEBUG: F12 pressed, opening developer tools
+- 23:40:50.078 INFO: DevTools url: http://127.0.0.1:59960/devtools/devtools.html?ws=127.0.0.1:59960/devtools/page/063f9bc60e9933c0b8cf010aa99650ab
+- 23:40:50.093 DEBUG: Window max width/height = 1840/992
+- 23:40:50.093 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 23:40:50.093 DEBUG: StoreBrowserWindow(): hwnd = 5375708
+- 23:40:50.093 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 23:40:50.093 DEBUG: ClientHandler::OnAfterCreated()
+- 23:40:50.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:40:50.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:40:50.000 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\PHPDesktop\DB Testing Application - Laravel - Apha 1.0\debug.log" --channel="3856.5.1729698480\466964166" /prefetch:673131151
+- 23:40:50.156 DEBUG: OnBrowserCreated()
+- 23:40:50.156 DEBUG: OnContextCreated()
+- 23:40:50.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:59960/devtools/devtools.html?ws=127.0.0.1:59960/devtools/page/063f9bc60e9933c0b8cf010aa99650ab
+[0121/234050:INFO:CONSOLE(755)] "WebSocket connection to 'ws://127.0.0.1:59960/devtools/page/063f9bc60e9933c0b8cf010aa99650ab' failed: Unexpected response code: 500", source: http://127.0.0.1:59960/devtools/inspector.js (755)
+[0121/234050:INFO:CONSOLE(756)] "[object Event]", source: http://127.0.0.1:59960/devtools/inspector.js (756)
+- 23:40:51.718 DEBUG: WM_DESTROY
+- 23:40:51.718 DEBUG: RemoveBrowserWindow(): hwnd = 5375708
+- 23:40:51.718 DEBUG: RemoveBrowserWindow(): hwnd = 1447328
+- 23:40:51.718 DEBUG: GetBrowserWindow(): not found, hwnd = 1447328
+- 23:40:51.718 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:40:57.000 DEBUG: F5 pressed, reloading page
+- 23:40:57.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:40:57.125 INFO: GET 500 /
+[0121/234057:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:40:57.203 DEBUG: OnContextCreated()
+- 23:40:57.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:41:19.359 DEBUG: F5 pressed, reloading page
+- 23:41:19.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:41:19.468 INFO: GET 500 /
+[0121/234119:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:41:19.547 DEBUG: OnContextCreated()
+- 23:41:20.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:41:48.000 DEBUG: F5 pressed, reloading page
+- 23:41:48.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:41:48.125 INFO: GET 500 /
+[0121/234148:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:41:48.203 DEBUG: OnContextCreated()
+- 23:41:48.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:42:05.890 DEBUG: F5 pressed, reloading page
+- 23:42:05.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:42:05.031 INFO: GET 500 /
+[0121/234205:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:42:05.109 DEBUG: OnContextCreated()
+- 23:42:05.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:42:37.484 DEBUG: F5 pressed, reloading page
+- 23:42:37.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:42:37.593 INFO: GET 500 /
+- 23:42:38.672 DEBUG: OnContextCreated()
+- 23:42:38.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:43:01.750 DEBUG: F5 pressed, reloading page
+- 23:43:01.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:43:02.875 INFO: GET 500 /
+[0121/234302:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:43:02.953 DEBUG: OnContextCreated()
+- 23:43:02.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:43:11.015 DEBUG: F5 pressed, reloading page
+- 23:43:11.015 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:43:11.109 INFO: GET 500 /
+- 23:43:11.187 DEBUG: OnContextCreated()
+- 23:43:11.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:43:12.422 DEBUG: F5 pressed, reloading page
+- 23:43:12.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:43:12.531 INFO: GET 500 /
+- 23:43:12.609 DEBUG: OnContextCreated()
+- 23:43:13.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:43:24.875 DEBUG: F5 pressed, reloading page
+- 23:43:24.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:43:24.062 INFO: GET 500 /
+[0121/234324:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:43:24.140 DEBUG: OnContextCreated()
+- 23:43:24.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:43:48.734 DEBUG: F5 pressed, reloading page
+- 23:43:48.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:43:49.922 INFO: GET 500 /
+[0121/234349:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:43:49.000 DEBUG: OnContextCreated()
+- 23:43:49.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:44:22.906 DEBUG: F5 pressed, reloading page
+- 23:44:22.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:44:22.125 INFO: GET 500 /
+- 23:44:22.203 DEBUG: OnContextCreated()
+- 23:44:22.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:45:24.031 DEBUG: F5 pressed, reloading page
+- 23:45:24.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:45:24.109 INFO: GET 200 /
+[0121/234524:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:45:24.187 DEBUG: OnContextCreated()
+- 23:45:24.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:45:56.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:45:56.062 INFO: POST 302 /connections/setNewConnection
+- 23:45:56.125 DEBUG: OnContextCreated()
+- 23:45:56.250 INFO: GET 500 /
+- 23:45:56.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:46:14.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:46:14.343 DEBUG: OnLoadError, errorCode=-302, failedUrl=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:14.343 ERROR: Failed to load URL: subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+[0121/234614:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:46:14.437 DEBUG: OnContextCreated()
+- 23:46:14.562 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:14.562 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 23:46:14.437 DEBUG: OnContextCreated()
+- 23:46:14.562 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+[0121/234614:INFO:CONSOLE(4510)] "IndexedDBAgent error: No document for given frame found", source: http://127.0.0.1:59960/devtools/inspector.js (4510)
+- 23:46:15.625 DEBUG: F5 pressed, reloading page
+- 23:46:15.625 DEBUG: OnLoadingStateChange: loading=1, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:15.625 DEBUG: OnLoadError, errorCode=-302, failedUrl=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:15.625 ERROR: Failed to load URL: subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:15.500 DEBUG: OnContextCreated()
+- 23:46:15.640 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:15.640 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 23:46:15.515 DEBUG: OnContextCreated()
+- 23:46:15.640 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+[0121/234615:INFO:CONSOLE(4510)] "IndexedDBAgent error: No document for given frame found", source: http://127.0.0.1:59960/devtools/inspector.js (4510)
+- 23:46:16.328 DEBUG: F5 pressed, reloading page
+- 23:46:16.328 DEBUG: OnLoadingStateChange: loading=1, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:16.328 DEBUG: OnLoadError, errorCode=-302, failedUrl=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:16.328 ERROR: Failed to load URL: subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:16.203 DEBUG: OnContextCreated()
+- 23:46:16.328 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:16.328 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 23:46:16.218 DEBUG: OnContextCreated()
+- 23:46:16.343 DEBUG: OnLoadingStateChange: loading=0, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+[0121/234616:INFO:CONSOLE(4510)] "IndexedDBAgent error: No document for given frame found", source: http://127.0.0.1:59960/devtools/inspector.js (4510)
+- 23:46:17.922 DEBUG: OnLoadingStateChange: loading=1, url=subl://open?url=file://C%3A%5CUsers%5Cddombroski%5CDocuments%5CPHPDesktop%5CDB%20Testing%20Application%20-%20Laravel%20-%20Apha%201.0%5Cwww%5Capp%5Cconfig%5Cdatabase.php&line=101
+- 23:46:17.812 DEBUG: OnContextCreated()
+- 23:46:17.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:46:18.500 DEBUG: F5 pressed, reloading page
+- 23:46:18.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:46:18.593 INFO: GET 200 /
+- 23:46:19.672 DEBUG: OnContextCreated()
+- 23:46:19.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:46:41.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:46:41.422 INFO: POST 302 /connections/setNewConnection
+- 23:46:41.453 DEBUG: OnContextCreated()
+- 23:46:41.593 INFO: GET 500 /
+- 23:46:41.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:47:52.265 DEBUG: F5 pressed, reloading page
+- 23:47:52.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:47:52.437 INFO: GET 500 /
+[0121/234752:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:47:52.515 DEBUG: OnContextCreated()
+- 23:47:53.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:48:24.890 DEBUG: F5 pressed, reloading page
+- 23:48:24.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:48:24.000 INFO: GET 500 /
+- 23:48:24.093 DEBUG: OnContextCreated()
+- 23:48:24.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:48:39.797 DEBUG: F5 pressed, reloading page
+- 23:48:39.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:48:39.984 INFO: GET 500 /
+[0121/234839:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:48:39.062 DEBUG: OnContextCreated()
+- 23:48:39.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:48:57.812 DEBUG: F5 pressed, reloading page
+- 23:48:57.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:48:57.922 INFO: GET 200 /
+[0121/234857:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+- 23:48:57.000 DEBUG: OnContextCreated()
+- 23:48:57.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:49:29.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:49:30.797 INFO: POST 302 /connections/setNewConnection
+- 23:49:30.812 DEBUG: OnContextCreated()
+- 23:49:30.937 INFO: GET 200 /
+- 23:49:30.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:52:09.078 DEBUG: F5 pressed, reloading page
+- 23:52:09.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:52:09.078 DEBUG: OnContextCreated()
+- 23:52:09.203 INFO: GET 200 /
+- 23:52:09.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 23:52:10.968 DEBUG: F5 pressed, reloading page
+- 23:52:10.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61604/
+- 23:52:10.968 DEBUG: OnContextCreated()
+- 23:52:10.093 INFO: GET 200 /
+- 23:52:10.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61604/
+- 00:07:55.828 DEBUG: RemoveBrowserWindow(): hwnd = 6100148
+- 00:07:55.828 DEBUG: GetBrowserWindow(): not found, hwnd = 6100148
+- 00:07:55.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:12:34.031 INFO: --------------------------------------------------------
+- 00:12:34.031 INFO: Started application
+- 00:12:34.031 INFO: Logging to: C:\Users\ddombroski\Documents\GitHub\SequelState\debug.log
+- 00:12:34.031 INFO: Log level = DEBUG4
+- 00:12:34.031 INFO: Starting Mongoose 3.9c web server
+- 00:12:34.031 INFO: WWW directory: C:\Users\ddombroski\Documents\GitHub\SequelState\www\public
+- 00:12:34.031 INFO: Index files: index.html,index.php
+- 00:12:34.031 INFO: CGI interpreter: C:\Users\ddombroski\Documents\GitHub\SequelState\php\php-cgi.exe
+- 00:12:34.031 INFO: CGI pattern: **.php$
+- 00:12:34.031 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DDOMBR~1\AppData\Local\Temp\
+- 00:12:34.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:12:34.047 INFO: Web server url: http://127.0.0.1:64720/
+- 00:12:34.047 INFO: remote_debugging_port = 59309
+- 00:12:34.047 DEBUG: Command line string for the browser process: "C:\Users\ddombroski\Documents\GitHub\SequelState\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\ddombroski\Documents\GitHub\SequelState\debug.log" --remote-debugging-port=59309 --no-sandbox
+- 00:12:34.078 DEBUG: App::OnContextInitialized()
+- 00:12:34.078 DEBUG: Window max width/height = 1840/992
+- 00:12:34.078 DEBUG: GetBrowserWindow(): not found, hwnd = 267954
+- 00:12:34.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:12:34.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:12:34.094 DEBUG: StoreBrowserWindow(): hwnd = 267954
+- 00:12:34.094 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:12:34.110 DEBUG: ClientHandler::OnAfterCreated()
+- 00:12:34.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:12:35.110 INFO: DPI, ppix = 96, ppiy = 96
+- 00:12:35.110 INFO: DPI, browser zoom level = 0
+- 00:12:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ddombroski\Documents\GitHub\SequelState\phpdesktop-chrome.exe" --type=gpu-process --channel="12584.0.61821918\180247476" --no-sandbox --lang=en-US --log-file="C:\Users\ddombroski\Documents\GitHub\SequelState\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22,26 --gpu-vendor-id=0x10de --gpu-device-id=0x104a --gpu-driver-vendor=NVIDIA --gpu-driver-version=9.18.13.4052 --lang=en-US --log-file="C:\Users\ddombroski\Documents\GitHub\SequelState\debug.log" /prefetch:822062411
+- 00:12:35.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:12:35.016 DEBUG: Command line string for the renderer process: "C:\Users\ddombroski\Documents\GitHub\SequelState\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\ddombroski\Documents\GitHub\SequelState\debug.log" --channel="12584.1.1489021944\1853450078" /prefetch:673131151
+- 00:12:35.016 DEBUG: OnBrowserCreated()
+- 00:12:36.422 INFO: GET 200 /
+- 00:12:36.297 DEBUG: OnContextCreated()
+- 00:12:36.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64720/
+- 00:12:40.438 DEBUG: WM_DESTROY
+- 00:12:40.438 DEBUG: RemoveBrowserWindow(): hwnd = 267954
+- 00:12:40.438 INFO: Stopping Mongoose web server
+- 00:12:40.438 DEBUG: Mongoose webserver stopped immediately
+- 00:12:40.438 DEBUG: RemoveBrowserWindow(): hwnd = 136938
+- 00:12:40.438 DEBUG: GetBrowserWindow(): not found, hwnd = 136938
+- 00:12:40.438 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:12:40.438 INFO: Ended application
+- 00:12:40.438 INFO: --------------------------------------------------------
