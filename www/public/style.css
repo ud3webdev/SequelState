@@ -1,0 +1,9 @@
+* { margin:0px;}
+/*COMPONENTS*/
+	/*Connections*/
+	#connections{width:100%; height: 40px; position: relative; float: left; background-color: grey;}
+	.connection{width:160px; height: 30px; text-align: center; padding-top: 10px; position: relative; float: left;}
+	.newConnection{width:160px; height: 30px; text-align: center; padding-top: 10px; position: relative; float: left; background-color: lightblue;}
+	.connected{background-color: green;}
+	.disconected{ background-color: red;}
+	/*End Connections*/

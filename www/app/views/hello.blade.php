@@ -13,14 +13,8 @@
 @if(Session::has('connections'))
 	<pre>
 		{{ print_r(Session::get('connections')) }}	
-		<?php
-			foreach(Session::get('connections') as $connection)
-			{
-				$data = DB::connection($connection['name'])->table('MCA')->select('id')->get();
-				echo print_r($data);
-			}
-		?>
-	
+		
+	{{ print_r(Session::get('connections2')) }}	
 	</pre>
 @endif
 

@@ -15,6 +15,10 @@ Route::get('/', array(
 	'as'	=>	'dashboard',
 	'uses'	=>	'HomeController@dashboard'
 ));
+Route::get('/connections', array(
+	'as'	=>	'connections',
+	'uses'	=>	'ConnectionsController@connections'
+));
 Route::post('/connections/setNewConnection', array(
 	'as'	=>	'SystemSetNewConnection',
 	'uses'	=>	'ConnectionsController@setNewConnection'

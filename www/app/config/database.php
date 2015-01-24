@@ -92,20 +92,25 @@ $DBconfig = array(
 	)
 );
 
-		if(session::has('connections'))
+
+if(session::has('connections'))
+{
+	foreach(Session::get('connections') as $connection)
+	{
+		if($connection['connected'] != 0)
 		{
-			foreach(Session::get('connections') as $connection)
-			{
-				$DBconfig['connections'][$connection['name']] = array(
-					'driver'    => 'mysql',
-					'host'      => $connection['host'],
-					'database'  => $connection['database'],
-					'username'  => $connection['user'],
-					'password'  => $connection['password'],
-					'charset'   => 'utf8',
-					'collation' => 'utf8_unicode_ci',
-					'prefix'    => ''
-				);
-			}
+			$DBconfig['connections'][$connection['name']] = array(
+				'driver'    => 'mysql',
+				'host'      => $connection['host'],
+				'database'  => $connection['database'],
+				'username'  => $connection['user'],
+				'password'  => $connection['password'],
+				'charset'   => 'utf8',
+				'collation' => 'utf8_unicode_ci',
+				'prefix'    => ''
+			);
 		}
+	}
+}
+
 return $DBconfig;
