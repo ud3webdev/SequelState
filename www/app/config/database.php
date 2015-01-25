@@ -26,7 +26,7 @@ $DBconfig = array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'sqlite',
 
 
 	/*
@@ -84,7 +84,7 @@ $DBconfig = array(
 
 	'connections' => array(
 
-		'sqlite' => array(
+		'System' => array(
 			'driver'   => 'sqlite',
 			'database' => __DIR__.'/../database/production.sqlite',
 			'prefix'   => '',
