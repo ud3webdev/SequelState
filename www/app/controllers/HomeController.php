@@ -6,7 +6,7 @@ class HomeController extends BaseController {
 
 	public function dashboard()
 	{
-		$this->layout->content = View::make('hello');
+		$this->layout->content = View::make('dashboard');
 	}
 
 }
