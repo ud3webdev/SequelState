@@ -6,9 +6,10 @@
 	<script src="/jquery-2.1.3.min.js"></script>
 </head>
 <body>
-<div id="LoadConnections">
-	@include('layouts.components.connections')
-</div>
+<!-- Connection Bar -->
+@include('layouts.components.connections')
+<!-- Overlays -->
+@include('layouts.components.overlays')
 @yield('content')
 </body>
 </html>

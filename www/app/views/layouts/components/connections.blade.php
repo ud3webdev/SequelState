@@ -27,6 +27,6 @@
 		@endforeach
 	@endif
 	<div class="newConnection">
-		<span>Add New Connection</span>
+		<span><a href="?overlay=AddNewConnection">Add New Connection</a></span>
 	</div>
 </div>
