@@ -22,7 +22,8 @@
 		?>
 		@foreach(Session::get('connections') as $connection)
 			<div class="connection @if($connection['connected'] === true) connected @else disconected @endif">
-				<span>{{ $connection['name'] }}</span>
+				<span>{{{ $connection['name'] }}}</span>
+				<span>@if($connection['connected'] === true) <a href="{{ URL::route('SystemRemoveConnection') }}?remove={{{ $connection['name'] }}}">X</a> @else <a href="#">O</a> <a href="{{ URL::route('SystemRemoveConnection') }}?remove={{{ $connection['name'] }}}">X</a> @endif</span>
 			</div>
 		@endforeach
 	@endif
