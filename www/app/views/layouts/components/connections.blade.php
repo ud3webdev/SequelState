@@ -1,33 +1,27 @@
 <div id="connections">
 	@if(Session::has('connections'))
 		<?php
+		//Get all saved connections
 		foreach(Session::get('connections') as $connection)
 		{
-			
-				try{
-				   DB::connection($connection['name'])->getDatabaseName();
-				   //Get Current Connection Array
-					$connections = Session::get('connections');
-					//Update Individual Connected Value
-					$connections[$connection['name']]['connected'] = 1;
-					//submit Updated Value
-					Session::put('connections', $connections);
-				}catch(Exception $e){
-				   //Get Current Connection Array
-					$connections = Session::get('connections');
-					//Update Individual Connected Value
-					$connections[$connection['name']]['connected'] = 0;
-					//submit Updated Value
-					Session::put('connections', $connections);
-	
-					//Trigger Alert
-					//echo $e->getMessage();
-				}
-			
+			//Get Current Connection Array
+			$connections = Session::get('connections');
+			try{
+			   	DB::connection($connection['name'])->getDatabaseName();
+			   	$connected = true;		
+			}catch(Exception $e){
+				$connected = false;
+				//Trigger Alert
+				//echo $e->getMessage();
+			}
+			//Update Individual Connected Value
+			$connections[$connection['name']]['connected'] = $connected;
+			//submit Updated Value
+			Session::put('connections', $connections);
 		}
 		?>
 		@foreach(Session::get('connections') as $connection)
-			<div class="connection @if($connection['connected'] === 1) connected @else disconected @endif">
+			<div class="connection @if($connection['connected'] === true) connected @else disconected @endif">
 				<span>{{ $connection['name'] }}</span>
 			</div>
 		@endforeach

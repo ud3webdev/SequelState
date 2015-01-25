@@ -97,7 +97,7 @@ if(session::has('connections'))
 {
 	foreach(Session::get('connections') as $connection)
 	{
-		if($connection['connected'] != 0)
+		if($connection['connected'] != false)
 		{
 			$DBconfig['connections'][$connection['name']] = array(
 				'driver'    => 'mysql',

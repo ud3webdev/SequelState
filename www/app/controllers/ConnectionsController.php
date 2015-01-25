@@ -17,7 +17,7 @@ class ConnectionsController extends BaseController {
 			'database' 	=> Input::get('database'),
 			'user'		=> Input::get('user'),
 			'password'	=> Input::get('password'),
-			'connected' => 1
+			'connected' => true
 			);
 		
 		if(Session::has('connections'))
