@@ -33,6 +33,12 @@ class ConnectionsController extends BaseController {
 				'connected' => true
 				);
 			$name = e(Input::get('name'));
+
+			//Save if selected
+			if(Input::has('save'))
+			{
+				ConnectionEntities::SaveConnection($connection['name'], $connection['host'], $connection['database'], $connection['user'], $connection['password']);
+			}
 			
 			if(Session::has('connections'))
 			{

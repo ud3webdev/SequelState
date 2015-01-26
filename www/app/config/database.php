@@ -26,7 +26,7 @@ $DBconfig = array(
 	|
 	*/
 
-	'default' => 'sqlite',
+	'default' => 'System',
 
 
 	/*
@@ -93,7 +93,7 @@ $DBconfig = array(
 );
 
 
-if(session::has('connections'))
+if(Session::has('connections'))
 {
 	foreach(Session::get('connections') as $connection)
 	{
