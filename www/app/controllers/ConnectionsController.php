@@ -32,32 +32,13 @@ class ConnectionsController extends BaseController {
 				'password'	=> Input::get('password'),
 				'connected' => true
 				);
-			$name = e(Input::get('name'));
-
+			//Add connection
+			ConnectionEntities::NewConnection($connection);
 			//Save if selected
 			if(Input::has('save'))
 			{
 				ConnectionEntities::SaveConnection($connection['name'], $connection['host'], $connection['database'], $connection['user'], $connection['password']);
 			}
-			
-			if(Session::has('connections'))
-			{
-				//Get Current Connections
-				$connections = Session::get('connections');
-				//Add new Connection
-				$connections[$name] = $connection;
-				//Save New Connection
-				Session::put('connections', $connections);
-			}else
-			{
-				//Prepare new connection array
-				$connections = array();
-				//Add New Connection
-				$connections[$name] = $connection;
-				//Save New Connection
-				Session::put('connections', $connections);
-			}
-			
 			return Redirect::route('dashboard');
 		}
 	}

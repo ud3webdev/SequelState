@@ -15,6 +15,30 @@ class ConnectionEntities extends Eloquent {
 
 	protected $fillable = array('EntityID', 'name');
 
+	//Adds new connection to system
+	public static function NewConnection($connection)
+	{
+		if(Session::has('connections'))
+		{
+			//Get Current Connections
+			$connections = Session::get('connections');
+			//Add new Connection
+			$connections[$connection['name']] = $connection;
+			//Save New Connection
+			Session::put('connections', $connections);
+		}
+		else
+		{
+			//Prepare new connection array
+			$connections = array();
+			//Add New Connection
+			$connections[$connection['name']] = $connection;
+			//Save New Connection
+			Session::put('connections', $connections);
+		}
+	}
+
+	//Saves connection within system for future use.
 	public static function SaveConnection($name, $host, $database, $user, $password)
 	{
 		DB::beginTransaction();
